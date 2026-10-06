@@ -1,0 +1,83 @@
+<div class="register-page">
+  <div class="register-card">
+    <div class="register-illustration">
+      <img src="Sign up-rafiki.png" alt="Register illustration">
+      <h2>Start Your Journey!</h2>
+      <p>Create your student account and start learning with EduSphere.</p>
+    </div>
+
+    <div class="register-form-section">
+      <div class="form-wrapper">
+        <div class="form-header">
+          <div class="logo-icon"><i class="bi bi-mortarboard-fill"></i></div>
+          <h1>Create Student Account</h1>
+          <p>Fill in your information to join EduSphere</p>
+        </div>
+
+        <form>
+          <div class="name-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <div class="input-wrapper"><i class="bi bi-person"></i><input id="firstName" type="text" placeholder="First name"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <div class="input-wrapper"><i class="bi bi-person"></i><input id="lastName" type="text" placeholder="Last name"></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="studentId">Student ID</label>
+            <div class="input-wrapper"><i class="bi bi-card-text"></i><input id="studentId" type="text" placeholder="Enter your student ID"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <div class="input-wrapper"><i class="bi bi-envelope"></i><input id="email" type="email" placeholder="Enter your email"></div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <div class="input-wrapper"><i class="bi bi-telephone"></i><input id="phone" type="tel" placeholder="Phone number"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="age">Age</label>
+              <div class="input-wrapper"><i class="bi bi-calendar3"></i><input id="age" type="number" min="1" placeholder="Age"></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="address">Address</label>
+            <div class="input-wrapper"><i class="bi bi-geo-alt"></i><input id="address" type="text" placeholder="Enter your address"></div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="dateOfBirth">Date of Birth</label>
+              <div class="input-wrapper"><i class="bi bi-calendar-event"></i><input id="dateOfBirth" type="date"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="gender">Gender</label>
+              <div class="input-wrapper"><i class="bi bi-person"></i><select id="gender"><option value="" selected disabled>Select gender</option><option value="male">Male</option><option value="female">Female</option></select></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <div class="input-wrapper"><i class="bi bi-lock"></i><input id="password" type="password" placeholder="Create a password"></div>
+          </div>
+
+          <label class="terms-check"><input type="checkbox"> <span>I agree to the Terms & Conditions and Privacy Policy.</span></label>
+
+          <button type="submit" class="register-btn">Create Account</button>
+        </form>
+
+        <p class="login-text">Already have an account? <a routerLink="/login">Login</a></p>
+      </div>
+    </div>
+  </div>
+</div>

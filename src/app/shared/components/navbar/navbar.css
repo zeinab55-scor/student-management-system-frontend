@@ -1,0 +1,73 @@
+.navbar {
+  min-height: 72px;
+}
+
+.navbar-brand {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #0f4c5c;
+}
+
+.navbar-brand i {
+  font-size: 1.7rem;
+}
+
+.navbar-brand:hover {
+  color: #083b47;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #333;
+  margin: 0 8px;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0f4c5c;
+}
+
+.btn-primary {
+  background-color: #0f4c5c;
+  border-color: #0f4c5c;
+}
+
+.btn-primary:hover {
+  background-color: #083b47;
+  border-color: #083b47;
+   
+}
+
+.btn-outline-primary {
+  color: #0f4c5c;
+  border-color: #0f4c5c;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0f4c5c;
+  border-color: #0f4c5c;
+  color: #ffff;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.5rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    padding: 15px 0;
+  }
+
+  .nav-link {
+    margin: 4px 0;
+  }
+
+  .d-flex {
+    padding-bottom: 10px;
+  }
+}
